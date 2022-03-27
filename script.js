@@ -60,7 +60,7 @@ newQuote()
 }
 
 function tweetQuote() {
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent} +- Twitted from Quotes Generator App`;
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent} +- Twitted from  https://marlonbarrios.github.io/quotegenerator/`;
     window.open(twitterUrl, '_blank');
 }
 
